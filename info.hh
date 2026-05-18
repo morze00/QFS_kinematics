@@ -5,8 +5,8 @@ const int MAX_STORY=100000;
 
 //const Double_t TKE_projectile = 4767.4804;//total kinetic energy of the projectile A in inve
 //const Double_t TKE_projectile = 1*4767.4804;//total kinetic energy of the projectile A in inverse kinematics case
-const Double_t TKE_projectile = 3000* 12;//total kinetic energy of the projectile A in inverse kinematics case
-const double ENERGY=3000; //in direct-kinematics case - the energy of incident nucleon in MeV
+const Double_t TKE_projectile = 300* 12;//total kinetic energy of the projectile A in inverse kinematics case
+const double ENERGY=300; //in direct-kinematics case - the energy of incident nucleon in MeV
 
 const double NEUTRON_MASS= 939.565;	// MeV
 const Double_t PROTON_MASS = 938.27208816;//MeV/c2
