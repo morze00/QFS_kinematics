@@ -1,4 +1,4 @@
-# QFS_kinematics
+# QFS kinematics generator
 Event generator for (p,2p) and (p,pn) reactions
 Original code was written in FORTRAN by Leonid Chulkov.
 Kinematics generator for QFS reactions in direct and inverse kinematics:
