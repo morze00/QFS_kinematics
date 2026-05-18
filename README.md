@@ -1,11 +1,13 @@
 # QFS kinematics generator
-Event generator for (p,2p) and (p,pn) reactions
+Event generator for (p,2p) and (p,pn) quasi-free scattering reactions in direct and inverse kinematics.
 Original code was written in FORTRAN by Leonid Chulkov.
-Kinematics generator for QFS reactions in direct and inverse kinematics:
+The code can be used to generate kinematics for the following QFS reactions:
 
  A(p,2p)B, A(p,pn)B, A(n,np)B
 
-Use --direct-kinematics, otherwise inverse kinematics will be used by default.
+where A and B=(A-1) are the initial and final-state nucleus.
+
+
 
 In inverse kinematics the program simulates quasi-elastic scattering
 of a target proton "i" (being at rest) on a cluster/nucleon "a" bound in the projectile nucleus A
@@ -17,8 +19,17 @@ of a target proton "i" (being at rest) on a cluster/nucleon "a" bound in the pro
 
  Modify info.hh to change beam parameters, masses, internal momentum spread, etc.
 
-  Pass --direct-kinematics flag to simulate in direct kinematics the scattering of
+ Pass --direct-kinematics flag to simulate in direct kinematics the scattering of
  of a beam-like proton "i" on a cluster/nucleon "a" bound in target nucleus A which is at rest.
+By default, inverse kinematics and (p,2p) reactions are assumed (if no flag is set).
 
- See output tree variables for the kinematics of the particles
- 1, 2 and B in the lab and CM frame and other kinematical variables
+See output tree variables for the kinematics of the particles
+1, 2 and B in the lab and CM frames. 
+
+Compilation requires and existing ROOT installation.
+Compile the code using 'make' command in the temrinal. 
+
+Example usage:
+
+./qfs --root=output.root --max-events=50000 --cugnon --ppn 
+./qfs --root=output.root --direct-kinematics
