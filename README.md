@@ -31,5 +31,5 @@ Example usage:
 
 <pre>
 ./qfs --root=output.root --max-events=50000 --cugnon --ppn")
-</pre>
 ./qfs --root=output.root --direct-kinematics
+</pre>
