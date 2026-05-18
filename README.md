@@ -21,7 +21,7 @@ By default, inverse kinematics and (p,2p) reactions are assumed (if no flags are
 The kinematics of the residual heavy spectator "B", the knocked-out outgoing cluster (2)
 and the scattered target nucleon (1) are stored in the output tree (in the lab and CM frames).
 
-***Modify info.hh to change beam parameters, masses, internal momentum spread, etc.***
+***--> Modify info.hh to change beam parameters, masses, internal momentum spread, etc.***
 
 The code implements parameterized NN differential cross section dsigma/dt in the NN center-of-mass frame
 using prescription by Cugnon et al.  NIM in Physics Research B 111(1996) 215-220
