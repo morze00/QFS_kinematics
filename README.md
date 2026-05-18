@@ -1,7 +1,7 @@
 # QFS kinematics generator
 Event generator for (p,2p) and (p,pn) quasi-free scattering reactions in direct and inverse kinematics.
 Original code was written in FORTRAN by Leonid Chulkov.
-The code can be used to generate kinematics for the following QFS reactions:
+The code can generate kinematics of the following QFS reactions:
 <pre>
 A(p,2p)B
 A(p,pn)B
