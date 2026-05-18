@@ -34,7 +34,7 @@ Use '--ppn' or '--nnp' flag to simulate QFS scattering of a bound neutron (or pr
 See output tree variables for the kinematics of the particles
 1, 2 and B in the lab and CM frames. 
 
-Compilation requires and existing ROOT installation.
+Compilation requires an existing ROOT installation.
 Compile the code using 'make' command in the terminal. 
 
 Example usage:
