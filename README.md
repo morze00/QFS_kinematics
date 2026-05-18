@@ -21,6 +21,7 @@ Modify info.hh to change beam parameters, masses, internal momentum spread, etc.
 
 The code implements parameterized NN cross section the NN center-of-mass frame
 using prescription by Cugnon et al.  NIM in Physics Research B 111(1996) 215-220
+Pass '--cugnon' flag to use the parameterization, otherwise isotropic NN scattering will be used by default.
 
 Pass '--direct-kinematics' flag to simulate in direct kinematics the scattering of
 of a beam-like proton "i" on a cluster/nucleon "a" bound inside the target nucleus A, which is at rest.
@@ -35,7 +36,8 @@ Compile the code using 'make' command in the terminal.
 Example usage:
 
 <pre>
-./qfs -h    -->to see available options and usage
-./qfs --root=output.root --max-events=50000 --cugnon --ppn     -->50k (p,pn) events in inverse-kinematics with Cugnon NN parameterization 
-./qfs --root=output.root --direct-kinematics      -->100k (p,2p) events in direct kinematics asumming isotropic NN cross sections
+make     --> compile the code (requires ROOT installation)
+./qfs -h    -->see available options and usage
+./qfs --root=output.root --max-events=50000 --cugnon --ppn     -->Simulate 50k (p,pn) events in inverse-kinematics with Cugnon NN parameterization 
+./qfs --root=output.root --direct-kinematics      -->Simulate 100k (p,2p) events in direct kinematics asumming isotropic NN cross sections
 </pre>
