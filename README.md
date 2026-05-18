@@ -19,6 +19,9 @@ and the scattered target nucleon (1) is stored in the output tree.
 
 Modify info.hh to change beam parameters, masses, internal momentum spread, etc.
 
+The code implements parameterized NN cross section the NN center-of-mass frame
+using prescription by Cugnon et al.  NIM in Physics Research B 111(1996) 215-220
+
 Pass '--direct-kinematics' flag to simulate in direct kinematics the scattering of
 of a beam-like proton "i" on a cluster/nucleon "a" bound inside the target nucleus A, which is at rest.
 By default, inverse kinematics and (p,2p) reactions are assumed (if no flag is set).
