@@ -24,7 +24,10 @@ and the scattered target nucleon (1) are stored in the output tree (in the lab a
 ***--> Modify info.hh to change beam parameters, masses, internal momentum spread, etc.***
 
 The code implements parameterized NN differential cross section dsigma/dt in the NN center-of-mass frame
-using prescription by Cugnon et al.  NIM in Physics Research B 111(1996) 215-220
+using prescription by Cugnon et al.  NIM in Physics Research B 111(1996) 215-220:
+
+https://doi.org/10.1016/0168-583X(95)01384-9
+
 Pass '--cugnon' flag to use the parameterization, otherwise isotropic NN scattering will be used by default.
 
 Use '--ppn' or '--nnp' flag to simulate QFS scattering of a bound neutron (or proton) "a" from proton (or neutron) probe "i".
