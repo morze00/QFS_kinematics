@@ -498,6 +498,7 @@ double get_CosThetaCM_Cugnon(double sm, bool pn_flag)
         // Probability function from the parameterization
         TF1 foo("foo", "[0]*exp([1]*x)", Tmax, 0);
         foo.FixParameter(0, 1); // normalized to unity
+        foo.FixParameter(1, Bpp);
         Trand = foo.GetRandom(Tmax, 0.);
     }
     else //--> Parameterization for pn scattering

@@ -32,7 +32,6 @@ void run(Char_t * root_filename,
 TVector3 DREHUNG(TVector3 v1,TVector3 v2);
 double CINEMA(double,double,double);
 cm_values CENMASS(double,double,double,double,bool,bool,bool);
-double momentum_CM(double,double,double);
 std::pair<double, double> Lorentz(double,double,double,double);
 double get_T(double,double);
 double get_CosThetaCM_Cugnon(double,bool);
