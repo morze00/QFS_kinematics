@@ -25,7 +25,7 @@ See output tree variables for the kinematics of the particles
 1, 2 and B in the lab and CM frames. 
 
 Compilation requires and existing ROOT installation.
-Compile the code using 'make' command in the temrinal. 
+Compile the code using 'make' command in the terminal. 
 
 Example usage:
 
