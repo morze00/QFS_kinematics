@@ -29,5 +29,6 @@ Compile the code using 'make' command in the terminal.
 
 Example usage:
 
-./qfs --root=output.root --max-events=50000 --cugnon --ppn 
+print("./qfs --root=output.root --max-events=50000 --cugnon --ppn")
+
 ./qfs --root=output.root --direct-kinematics
