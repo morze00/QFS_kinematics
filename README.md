@@ -30,6 +30,7 @@ Compile the code using 'make' command in the terminal.
 Example usage:
 
 <pre>
-./qfs --root=output.root --max-events=50000 --cugnon --ppn")
+./qfs -h   - to see available options and usage
+./qfs --root=output.root --max-events=50000 --cugnon --ppn
 ./qfs --root=output.root --direct-kinematics
 </pre>
