@@ -19,7 +19,7 @@ of a beam-like nucleon "i" on a cluster/nucleon "a" bound inside the target nucl
 By default, inverse kinematics and (p,2p) reactions are assumed (if no flags are set).
 
 The kinematics of the residual heavy spectator "B", the knocked-out outgoing cluster (2)
-and the scattered target nucleon (1) are stored in the output tree.
+and the scattered target nucleon (1) are stored in the output tree (in the lab and CM frames).
 
 Modify info.hh to change beam parameters, masses, internal momentum spread, etc.
 
@@ -29,8 +29,7 @@ Pass '--cugnon' flag to use the parameterization, otherwise isotropic NN scatter
 
 Use '--ppn' or '--nnp' flag to simulate QFS scattering of a bound neutron (or proton) "a" from proton (or neutron) probe "i".
 
-See output tree variables for the kinematics of the particles
-1, 2 and B in the lab and CM frames. 
+ 
 
 Compilation requires an existing ROOT installation.
 Compile the code using 'make' command in the terminal. 
