@@ -29,7 +29,7 @@ Pass '--direct-kinematics' flag to simulate in direct kinematics the scattering 
 of a beam-like nucleon "i" on a cluster/nucleon "a" bound inside the target nucleus A, which is at rest.
 By default, inverse kinematics and (p,2p) reactions are assumed (if no flag is set).
 
-Use '--ppn' or '--nnp' flag to simulate QFS scattering of a bound neutron (or proton) 'a' from proton (or neutron) probe 'i'.
+Use '--ppn' or '--nnp' flag to simulate QFS scattering of a bound neutron (or proton) "a" from proton (or neutron) probe "i".
 
 See output tree variables for the kinematics of the particles
 1, 2 and B in the lab and CM frames. 
