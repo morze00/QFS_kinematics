@@ -29,6 +29,7 @@ Compile the code using 'make' command in the terminal.
 
 Example usage:
 
-print("./qfs --root=output.root --max-events=50000 --cugnon --ppn")
-
+<pre>
+./qfs --root=output.root --max-events=50000 --cugnon --ppn")
+</pre>
 ./qfs --root=output.root --direct-kinematics
